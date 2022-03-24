@@ -11,8 +11,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var sampleCollectionView: UICollectionView!
     
+    private var previousYPosition: CGFloat!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        previousYPosition = 0
         sampleCollectionView.delegate = self
         sampleCollectionView.dataSource = self
         sampleCollectionView.register(UINib(nibName: "HeaderView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderView")
