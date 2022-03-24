@@ -15,6 +15,8 @@
 		5CDBF16927ECE27C001DB379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBF16727ECE27C001DB379 /* LaunchScreen.storyboard */; };
 		5CDBF17327ECE3C7001DB379 /* WideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */; };
 		5CDBF17527ECE7E4001DB379 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDBF17427ECE7E4001DB379 /* CustomFlowLayout.swift */; };
+		5CDBF17C27ECFB6A001DB379 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDBF17A27ECFB6A001DB379 /* HeaderView.swift */; };
+		5CDBF17D27ECFB6A001DB379 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBF17B27ECFB6A001DB379 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5CDBF16A27ECE27C001DB379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideCollectionViewCell.swift; sourceTree = "<group>"; };
 		5CDBF17427ECE7E4001DB379 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		5CDBF17A27ECFB6A001DB379 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5CDBF17B27ECFB6A001DB379 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				5CDBF16027ECE27A001DB379 /* ViewController.swift */,
 				5CDBF17427ECE7E4001DB379 /* CustomFlowLayout.swift */,
 				5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */,
+				5CDBF17A27ECFB6A001DB379 /* HeaderView.swift */,
+				5CDBF17B27ECFB6A001DB379 /* HeaderView.xib */,
 				5CDBF16227ECE27A001DB379 /* Main.storyboard */,
 				5CDBF16527ECE27C001DB379 /* Assets.xcassets */,
 				5CDBF16727ECE27C001DB379 /* LaunchScreen.storyboard */,
@@ -134,6 +140,7 @@
 				5CDBF16927ECE27C001DB379 /* LaunchScreen.storyboard in Resources */,
 				5CDBF16627ECE27C001DB379 /* Assets.xcassets in Resources */,
 				5CDBF16427ECE27A001DB379 /* Main.storyboard in Resources */,
+				5CDBF17D27ECFB6A001DB379 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CDBF16127ECE27A001DB379 /* ViewController.swift in Sources */,
+				5CDBF17C27ECFB6A001DB379 /* HeaderView.swift in Sources */,
 				5CDBF15D27ECE27A001DB379 /* AppDelegate.swift in Sources */,
 				5CDBF15F27ECE27A001DB379 /* SceneDelegate.swift in Sources */,
 				5CDBF17527ECE7E4001DB379 /* CustomFlowLayout.swift in Sources */,

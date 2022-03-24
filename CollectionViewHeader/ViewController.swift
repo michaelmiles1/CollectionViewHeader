@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         sampleCollectionView.delegate = self
         sampleCollectionView.dataSource = self
+        sampleCollectionView.register(UINib(nibName: "HeaderView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderView")
     }
 
 }
@@ -28,6 +29,12 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "WideCollectionViewCell", for: indexPath)
         cell.backgroundColor = .random()
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HeaderView", for: indexPath) as! HeaderView
+        headerView.titleLabel.text = "TITLE"
+        return headerView
     }
 }
 

@@ -11,6 +11,7 @@ class CustomFlowLayout: UICollectionViewFlowLayout {
     override func awakeFromNib() {
         super.awakeFromNib()
         itemSize = CGSize(width: collectionView!.frame.width, height: 40)
+        headerReferenceSize = CGSize(width: collectionView!.frame.width, height: 50)
     }
     
     override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
@@ -48,8 +49,7 @@ class CustomFlowLayout: UICollectionViewFlowLayout {
                 var frame = attrib.frame
                 let offset = collectionView!.contentOffset.y
                 let minY = attribsForFirstItem!.frame.minY - frame.height
-                let maxY = attribsForFirstItem!.frame.maxY - frame.height
-                let yValue = min(max(offset, minY), maxY)
+                let yValue = min(offset, minY)
                 frame.origin.y = yValue
                 attrib.frame = frame
                 attrib.zIndex = 99
