@@ -13,6 +13,7 @@
 		5CDBF16427ECE27A001DB379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBF16227ECE27A001DB379 /* Main.storyboard */; };
 		5CDBF16627ECE27C001DB379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBF16527ECE27C001DB379 /* Assets.xcassets */; };
 		5CDBF16927ECE27C001DB379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDBF16727ECE27C001DB379 /* LaunchScreen.storyboard */; };
+		5CDBF17327ECE3C7001DB379 /* WideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5CDBF16527ECE27C001DB379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CDBF16827ECE27C001DB379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CDBF16A27ECE27C001DB379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5CDBF15C27ECE27A001DB379 /* AppDelegate.swift */,
 				5CDBF15E27ECE27A001DB379 /* SceneDelegate.swift */,
 				5CDBF16027ECE27A001DB379 /* ViewController.swift */,
+				5CDBF17227ECE3C7001DB379 /* WideCollectionViewCell.swift */,
 				5CDBF16227ECE27A001DB379 /* Main.storyboard */,
 				5CDBF16527ECE27C001DB379 /* Assets.xcassets */,
 				5CDBF16727ECE27C001DB379 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				5CDBF16127ECE27A001DB379 /* ViewController.swift in Sources */,
 				5CDBF15D27ECE27A001DB379 /* AppDelegate.swift in Sources */,
 				5CDBF15F27ECE27A001DB379 /* SceneDelegate.swift in Sources */,
+				5CDBF17327ECE3C7001DB379 /* WideCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
